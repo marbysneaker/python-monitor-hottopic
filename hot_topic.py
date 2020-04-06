@@ -12,7 +12,7 @@ from proxies1 import proxy_ip
 
 keyword = 'Funko'
 filename = 'hottopic.txt'
-webhook_url = 'https://discordapp.com/api/webhooks/585416909235683330/dt5q6hCKDsNT4jxY8v0B13Tw0R7p_mimBhpw9q0My1SATuIGEQXSPAbfE9QfMREMJWHC'
+webhook_url = 'your discord webhook key'
 
 def monitor():
     # n = random.choice(proxy_ip)
