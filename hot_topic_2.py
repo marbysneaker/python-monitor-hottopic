@@ -15,7 +15,7 @@ x = (str(datetime.datetime.now())[0:19])
 
 keyword = 'Funko'
 filename = 'hottopic.txt'
-webhook_url = 'https://discordapp.com/api/webhooks/585416909235683330/dt5q6hCKDsNT4jxY8v0B13Tw0R7p_mimBhpw9q0My1SATuIGEQXSPAbfE9QfMREMJWHC'
+webhook_url = 'your discord webhook key'
 
 def monitor():
     source =  requests.get('https://www.hottopic.com/funko/?srule=sortingNewArrival&sz=60&start=0', headers = randomheaders.LoadHeader()).text
